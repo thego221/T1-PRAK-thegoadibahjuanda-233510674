@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import profileImg from './components/profile.JPG';
+import profileImg from './components/profile.jpg';
 
 export default {
   name: 'App',
