@@ -22,19 +22,22 @@
 
       <!-- Kanan: Foto -->
       <div class="image-section">
-        <img
-          src="./components/profile.JPG"
-          alt="Thego Adibah Juanda"
-          class="profile-image"
-        />
+        <img :src="profileImg" alt="Thego Adibah Juanda" class="profile-image" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import profileImg from './components/profile.JPG';
+
 export default {
   name: 'App',
+  data() {
+    return {
+      profileImg
+    };
+  }
 };
 </script>
 
